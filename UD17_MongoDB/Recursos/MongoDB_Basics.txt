@@ -1,0 +1,114 @@
+			*** MongoBD Basics  ***
+
+
+
+
+//Listar base de datos----------------------------------
+show databases
+
+//Listar colecciones -----------------------------------
+show collections
+
+//Listar comandos --------------------------------------
+help
+
+//Seleccionar base de datos-----------------------------
+// si no existe la crea 
+use Biblioteca
+
+//Mostrar nombre de base de datos seleccionada----------
+db
+
+//Crear colección---------------------------------------
+db.createCollection('libros')	-> REFIERE A LA TABLA ESPECÍFICA
+
+//Add documento ----------------------------------------
+db.libros.insertOne(
+   {
+    _id: 1,  
+    titulo: 'El aleph',
+    autor: 'Borges',
+    editorial: ['Siglo XXI','Planeta'],
+    precio: 20,
+    cantidad: 50 
+  }
+)
+
+//Add varios documentos ---------------------------------
+db.libros.insertMany(
+  [
+    {
+      _id: 2,  
+      titulo: 'Martin Fierro',
+      autor: 'Jose Hernandez',
+      editorial: ['Siglo XXI'],
+      precio: 50,
+      cantidad: 12
+    },
+    {
+      codigo: 3,  
+      nombre: 'Aprenda PHP',
+      autor: 'Mario Molina',
+      editoriales: ['Planeta'],
+      precio: 50,
+      cantidad: 12
+
+    },
+    {
+      codigo: 4,  
+      nombre: 'Java en 10 minutos',
+      autor: 'Barros Sergio',
+      editoriales: ['Planeta','Siglo XXI'],
+      precio: 100,
+      cantidad: 145
+
+    }
+  ]
+)
+
+//Actualiza documento ----------------------------------------
+db.libros.updateOne({_id : {$eq:1}} , {$set : {precio:15,cantidad:1} })
+
+//Listar documentos ----------------------------------------
+db.libros.find()
+db.libros.find({_id : 1})
+db.libros.find({precio : 50, cantidad : 12 })
+
+//Limpia el terminal ----------------------------------------
+cls
+
+//Delete database  ------------------------------------------
+db.dropDatabase()
+
+//Delete Coleccion ------------------------------------------
+db.Coleccion1.drop()
+
+//Delete documento ------------------------------------------
+db.libros.drop()
+db.libros.find({codigo: 3})
+db.libros.deleteOne({_id: 3})
+
+
+--------------------------------------------
+
+-  	SET EN VALOR:
+
+db.empleados.updateOne({_id : 2}, 
+                              { $set:
+                                  {
+                                    DNI : "1234B",
+                                    nombre : "homer",
+                                    apellido : "simpsons"
+                                  }
+                              }
+                              )
+
+
+
+				*** Otros Recursos  ***
+
+
+https://www.mongodb.com/es
+
+https://docs.mongodb.com/guides/
+

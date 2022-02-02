@@ -1,0 +1,26 @@
+[{
+  "_id": 1,
+  "DNI": "1234A",
+  "nombre": "luis",
+  "apellido": "morales"
+},{
+  "_id": 2,
+  "DNI": "1234B",
+  "apellido": "simpsons",
+  "nombre": "homer"
+},{
+  "_id": 3,
+  "DNI": "1234C",
+  "nombre": "eleanor",
+  "apellido": "rigby"
+},{
+  "_id": 4,
+  "DNI": "1234D",
+  "nombre": "steven",
+  "apellido": "lennon"
+},{
+  "_id": 5,
+  "DNI": "1234E",
+  "nombre": "arnold",
+  "apellido": "terminator"
+}]
