@@ -1,2 +1,7 @@
 # Java_Bootcamp_Splai_UD17_MongoDB
-rEPOSITORIO QUE RECOGE LAS INSERCIONES, CREACION DE COLECCIONES Y BASE DE DATOS EN AMBIENTE mONGOdb SOBRE LA MÁQUINA VIRTUAL Y EL fEDORA SERVER.
+Repositorio que recoge las inserciones, creacion de colecciones y base de datos en ambiente mongodb sobre la máquina virtual y el fedora server.
+
+
+Grupo 2:
+
+Isabel - Gabriel - Marcos
