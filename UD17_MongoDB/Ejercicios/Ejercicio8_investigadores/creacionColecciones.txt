@@ -1,0 +1,17 @@
+
+			*** Creación de colecciones de data base Investigadores ***
+
+use investigadores
+'switched to db investigadores'
+db.createCollection('facultad')
+{ ok: 1 }
+db.createCollection('investigadores')
+{ ok: 1 }
+db.createCollection('reserva')
+{ ok: 1 }
+db.createCollection('equipos')
+{ ok: 1 }
+investigadores
+
+
+
