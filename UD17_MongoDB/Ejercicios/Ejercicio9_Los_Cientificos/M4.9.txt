@@ -1,0 +1,95 @@
+use M4-9
+
+db.createCollection('Cientificos')
+
+db.Cientificos.insertMany(
+  [
+    {
+      _dni: '12345678A',
+      nomApels: 'a'
+    },
+     {
+      _dni: '12345678B',
+      nomApels: 'b'
+    },
+     {
+      _dni: '12345678C',
+      nomApels: 'C'
+    },
+    {
+      _dni: '12345678D',
+      nomApels: 'd'
+    },
+    {
+      _dni: '12345678E',
+      nomApels: 'e'
+    },
+  ]
+  )
+db.createCollection('Proyecto')
+
+db.Proyecto.insertMany(
+  [
+    {
+      _id: 1,
+      nombre: 'a',
+      horas: 30
+     
+    },
+    {
+      _id: 2,
+      nombre: 'b',
+      horas: 10
+     
+    },
+   {
+      _id: 3,
+      nombre: 'c',
+      horas: 20
+     
+    },
+   {
+      _id: 4,
+      nombre: 'd',
+      horas: 70
+     
+    },
+    {
+      _id: 5,
+      nombre: 'e',
+      horas: 100
+     
+    },
+  ]
+)
+db.createCollection('AsignadoA')
+
+db.AsignadoA.insertMany(
+  [
+    {
+      _cientifico: 'a',
+      _proyecto: 'a'
+     
+    },
+    {
+      _cientifico: 'b',
+      _proyecto: 'b'
+     
+    },
+   {
+      _cientifico: 'c',
+      _proyecto: 'c'
+     
+    },
+    {
+      _cientifico: 'd',
+      _proyecto: 'd'
+     
+    },
+    {
+      _cientifico: 'e',
+      _proyecto: 'e'
+     
+    },
+  ]
+)
