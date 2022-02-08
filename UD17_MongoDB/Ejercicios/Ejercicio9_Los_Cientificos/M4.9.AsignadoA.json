@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6202d650d88ef2b899169837"
+  },
+  "_cientifico": "a",
+  "_proyecto": "a"
+},{
+  "_id": {
+    "$oid": "6202d650d88ef2b899169838"
+  },
+  "_cientifico": "b",
+  "_proyecto": "b"
+},{
+  "_id": {
+    "$oid": "6202d650d88ef2b899169839"
+  },
+  "_cientifico": "c",
+  "_proyecto": "c"
+},{
+  "_id": {
+    "$oid": "6202d650d88ef2b89916983a"
+  },
+  "_cientifico": "d",
+  "_proyecto": "d"
+},{
+  "_id": {
+    "$oid": "6202d650d88ef2b89916983b"
+  },
+  "_cientifico": "e",
+  "_proyecto": "e"
+}]

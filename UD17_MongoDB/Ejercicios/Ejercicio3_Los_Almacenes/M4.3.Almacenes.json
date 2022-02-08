@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "61fa7764e91752eb1ff7be70"
+  },
+  "_codigo": 1,
+  "lugar": "lugar1",
+  "capacidad": 100
+},{
+  "_id": {
+    "$oid": "61fa7764e91752eb1ff7be71"
+  },
+  "_codigo": 2,
+  "lugar": "lugar2",
+  "capacidad": 300
+},{
+  "_id": {
+    "$oid": "61fa7764e91752eb1ff7be72"
+  },
+  "_codigo": 3,
+  "lugar": "lugar3",
+  "capacidad": 200
+},{
+  "_id": {
+    "$oid": "61fa7764e91752eb1ff7be73"
+  },
+  "_codigo": 4,
+  "lugar": "lugar4",
+  "capacidad": 700
+},{
+  "_id": {
+    "$oid": "61fa7764e91752eb1ff7be74"
+  },
+  "_codigo": 5,
+  "lugar": "lugar5",
+  "capacidad": 500
+}]

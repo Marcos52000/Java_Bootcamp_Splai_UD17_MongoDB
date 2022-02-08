@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6202c632d88ef2b899169814"
+  },
+  "_dni": "12345678A",
+  "nomApels": "a",
+  "dniJefe": "12345678A",
+  "despacho": 1
+},{
+  "_id": {
+    "$oid": "6202c632d88ef2b899169815"
+  },
+  "_dni": "12345678B",
+  "nomApels": "b",
+  "dniJefe": "12345678B",
+  "despacho": 2
+},{
+  "_id": {
+    "$oid": "6202c632d88ef2b899169816"
+  },
+  "_dni": "12345678C",
+  "nomApels": "c",
+  "DNIJefe": "12345678C",
+  "despacho": 3
+},{
+  "_id": {
+    "$oid": "6202c632d88ef2b899169817"
+  },
+  "_dni": "12345678D",
+  "nomApels": "d",
+  "dniJefe": "12345678D",
+  "despacho": 4
+},{
+  "_id": {
+    "$oid": "6202c632d88ef2b899169818"
+  },
+  "_dni": "12345678E",
+  "nomApels": "e",
+  "dniJefe": "12345678E",
+  "despacho": 5
+}]

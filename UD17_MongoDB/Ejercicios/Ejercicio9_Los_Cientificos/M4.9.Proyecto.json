@@ -1,0 +1,21 @@
+[{
+  "_id": 1,
+  "nombre": "a",
+  "horas": 30
+},{
+  "_id": 2,
+  "nombre": "b",
+  "horas": 10
+},{
+  "_id": 3,
+  "nombre": "c",
+  "horas": 20
+},{
+  "_id": 4,
+  "nombre": "d",
+  "horas": 70
+},{
+  "_id": 5,
+  "nombre": "e",
+  "horas": 100
+}]

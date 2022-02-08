@@ -1,0 +1,131 @@
+use M4-7
+
+db.createCollection('Cajeros')
+
+db.Cajeros.insertMany(
+  [
+    {
+      _codigo:1,
+      nomApels: 'a'
+    },
+    {
+      _codigo:2,
+      nomApels: 'b'
+    },
+     {
+      _codigo:3,
+      nomApels: 'c'
+    },
+     {
+      _codigo:4,
+      nomApels: 'd'
+    },
+     {
+      _codigo:5,
+      nomApels: 'e'
+    },
+  ]
+  )
+db.createCollection('Productos')
+
+db.Productos.insertMany(
+  [
+    {
+      _codigo: 1,
+      nombre: 'a',
+      precio: 30
+     
+    },
+    {
+      _codigo: 2,
+      nombre: 'b',
+      precio: 50
+     
+    },
+   {
+      _codigo: 3,
+      nombre: 'c',
+      precio: 4
+     
+    },
+    {
+      _codigo: 4,
+      nombre: 'd',
+      precio: 40
+     
+    },
+    {
+      _codigo: 5,
+      nombre: 'e',
+      precio: 70
+     
+    },
+  ]
+)
+db.createCollection('MaquinasRegistradoras')
+
+db.MaquinasRegistradoras.insertMany(
+  [
+    {
+      _codigo: 1,
+      piso: 3
+     
+    },
+    {
+      _codigo: 2,
+      piso: 5
+     
+    },
+   {
+      _codigo: 3,
+      piso: 4
+     
+    },
+    {
+      _codigo: 4,
+      piso: 1
+     
+    },
+    {
+      _codigo: 5,
+      piso:7
+     
+    },
+  ]
+)
+db.createCollection('Venta')
+
+db.Venta.insertMany(
+  [
+    {
+      _cajero: 1,
+      _maquina:1,
+      _producto:1
+     
+    },
+   {
+      _cajero: 2,
+      _maquina:2,
+      _producto:2
+     
+    },
+   {
+      _cajero: 3,
+      _maquina:3,
+      _producto:3
+     
+    },
+    {
+      _cajero: 4,
+      _maquina:4,
+      _producto:4
+     
+    },
+    {
+      _cajero: 5,
+      _maquina:5,
+      _producto:5
+     
+    },
+  ]
+)

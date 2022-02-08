@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6202cd03d88ef2b899169823"
+  },
+  "_codigo": 1,
+  "nomApels": "a"
+},{
+  "_id": {
+    "$oid": "6202cd03d88ef2b899169824"
+  },
+  "_codigo": 2,
+  "nomApels": "b"
+},{
+  "_id": {
+    "$oid": "6202cd03d88ef2b899169825"
+  },
+  "_codigo": 3,
+  "nomApels": "c"
+},{
+  "_id": {
+    "$oid": "6202cd03d88ef2b899169826"
+  },
+  "_codigo": 4,
+  "nomApels": "d"
+},{
+  "_id": {
+    "$oid": "6202cd03d88ef2b899169827"
+  },
+  "_codigo": 5,
+  "nomApels": "e"
+}]

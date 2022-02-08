@@ -1,0 +1,70 @@
+use M4-3
+
+db.createCollection('Almacenes')
+
+db.Almacenes.insertMany(
+  [
+    {
+      _codigo:1,
+      lugar: 'lugar1',
+      capacidad: 100
+    },
+    {
+      _codigo:2,
+      lugar: 'lugar2',
+      capacidad:300
+    },
+    {
+      _codigo:3,
+      lugar: 'lugar3',
+      capacidad: 200
+    },
+    {
+      _codigo:4,
+      lugar: 'lugar4',
+      capacidad: 700
+    },
+    {
+      _codigo:5,
+      lugar: 'lugar5',
+      capacidad: 500
+    }
+  ]
+  )
+
+db.createCollection('Cajas')
+
+db.Cajas.insertMany(
+  [
+    {
+      _numReferencia:1,
+      contenido:'contenido1',
+      valor: 100,
+      almacen:1
+    },
+    {
+      _numReferencia:2,
+      contenido: 'contenido2',
+      valor:5,
+      almacen:2
+    },
+    {
+      _numReferencia:3,
+      contenido: 'contenido3',
+      valor:300,
+      almacen: 3
+    },
+    {
+      _numReferencia:4,
+      contenido: 'contenido4',
+      valor: 50,
+      almacen:4
+    },
+    {
+    _numReferencia:5,
+    contenido: 'contenido5',
+    valor:30,
+    almacen:5
+    }
+  ]
+  )

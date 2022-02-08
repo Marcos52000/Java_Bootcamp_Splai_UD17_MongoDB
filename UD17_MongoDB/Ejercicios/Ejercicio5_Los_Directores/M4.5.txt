@@ -1,0 +1,69 @@
+use M4-5
+
+db.createCollection('Directores')
+
+db.Directores.insertMany(
+  [
+    {
+      _dni:'12345678A',
+      nomApels: 'a',
+      dniJefe: '12345678A',
+      despacho: 1
+    },
+    {
+      _dni: '12345678B',
+      nomApels: 'b',
+      dniJefe: '12345678B',
+      despacho: 2
+    },
+    {
+      _dni: '12345678C',
+      nomApels: 'c',
+      DNIJefe: '12345678C',
+      despacho: 3
+    },
+    {
+      _dni: '12345678D',
+      nomApels: 'd',
+      dniJefe: '12345678D',
+      despacho: 4
+    },
+    {
+      _dni: '12345678E',
+      nomApels: 'e',
+      dniJefe: '12345678E',
+      despacho: 5
+    }
+  ]
+  )
+db.createCollection('Despachos')
+
+db.Despachos.insertMany(
+  [
+    {
+      _numero: 1,
+      capacidad: 30
+     
+    },
+    {
+      _numero: 2,
+      capacidad: 100
+     
+    },
+    {
+      _numero: 3,
+      capacidad: 10
+     
+    },
+    {
+      _numero: 4,
+      capacidad: 70
+     
+    },
+    {
+      _numero: 5,
+      capacidad: 25
+     
+    }
+  ]
+  )
